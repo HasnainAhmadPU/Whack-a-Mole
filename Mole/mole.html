@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Whack a Mole</title>
-    <link rel="stylesheet" href="mole.css">
-</head>
+    <link rel="stylesheet" href="mole.css" />
+  </head>
 
-<body>
+  <body>
     <style>
-        body {
-            background: url("mole-back.jpg");
-            background-size: cover;
-        }
-        #board div {
-            background-image: url("molepipe.png");
-            background-size: 60% 60%;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
+      body {
+        background: url("mole-back.jpg");
+        background-size: cover;
+      }
+      #board div {
+        background-image: url("molepipe.png");
+        background-size: 60% 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
     </style>
     <div class="main-div">
-        <canvas id="scoreCanvas"></canvas>
-        <div id="board"></div>
-        <button class="btn-p">
-            <span>
-                Play Again
-            </span>
-        </button>
+      <div id="board"></div>
+      <button class="btn-p">
+        <span> Play Again </span>
+      </button>
     </div>
     <script src="mole.js"></script>
-</body>
-
+  </body>
 </html>
